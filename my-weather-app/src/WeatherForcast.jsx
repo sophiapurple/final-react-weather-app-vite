@@ -23,7 +23,7 @@ console.log(forcast)
     return(
         <div className="forcast">
            {forcast.map(function(dailyForcast, index){
-            if(index < 6){
+            if(index < 7){
             return(
               <div key={index}>
               <ForcastDay forcast={dailyForcast}/>

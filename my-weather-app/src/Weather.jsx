@@ -77,8 +77,9 @@ export default function  Weather(props){
         
            
             <footer className="footer">
-                <p>Coded by Chinelo, open sourced in  <a href="https://github.com/sophiapurple/React-Final-Project"><i class="fa-brands fa-github github"></i></a>
-                 {" "} and hosted in <a href="">render</a>  </p>
+                <p>Coded by Chinelo Okpala, open sourced in  <a href="https://github.com/sophiapurple/final-react-weather-app-vite"><i class="fa-brands fa-github github"></i>
+                {" "} </a>{" "}Github
+                  </p>
                 </footer>
     
         </div>
