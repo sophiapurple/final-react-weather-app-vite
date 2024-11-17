@@ -1,0 +1,180 @@
+:root{
+    --font-family:"Pacifico";
+    --body-font:"Amaranth", sans-serif;
+}
+
+@media(max-width:700px){
+    body .weather-wrapper{
+        position: relative;
+       
+    }
+    .city-temp .temp{
+        font-size: 36px;
+    }
+
+    .city-temp .city{
+        font-size: 30px;
+    }
+
+    .forcast .forcastIcon{
+        max-width: 10px;
+        position: relative;
+        bottom: 10px;
+        max-width: 45px;  
+
+
+    }
+    .forcast .forcast{
+        font-size: 11px;
+        padding: 1.5px;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .footer p{
+    position: relative;
+    bottom: 30px;
+   }
+    .weather-wrapper footer{
+        font-size: 10px;
+    }
+    .max-min{
+    font-size: 10px;
+    margin:0;
+}
+.minTemperature{
+    padding-left: 1px;
+}
+
+     .weather-wrapper .input{
+        padding: 6px 9px;
+        font-size: 15px;
+
+    }
+    .weather-wrapper.submit-button{
+        padding:30px;
+
+    }
+
+ .weather-wrapper .submit-button{
+    padding: 4px 5px;
+ }
+
+ 
+}
+
+
+
+
+
+
+body{
+    background-image: url("images/clearclouds.jpg");
+    background-size: cover ;  
+    color: white;
+    font-weight: l;
+    
+    
+    }
+
+.city{
+font-size: 50px;
+font-weight: bolder;
+font-family:var(--body-font);
+
+}
+
+.city-temp{
+display: flex;
+justify-content: space-around;
+margin: 40px 30px;
+
+}
+
+
+.currentWeather{
+border: 1px solid grey;
+border-radius: 20px;
+padding: 20px;
+margin-top: 20px;
+}
+
+.colorChange{
+color: blanchedalmond;
+font-weight: bolder;
+}
+
+.currentWrapper{
+display: flex;
+font-size: 13px;
+justify-content: space-evenly;
+}
+
+.forcast{
+display: flex;
+justify-content: center;
+font-size: 13px;
+position: relative;
+margin-top: 50px;
+margin-left: 10px;
+}
+.forcastIcon{
+max-width: 90px;
+position: relative;
+bottom: 10px;  
+}
+
+footer{
+    font-size: 17px;
+    color:blanchedalmond;
+    margin-top: 70px;
+    font-family: var(--font-family);
+    font-style: normal;
+    padding-bottom:60px ;
+    }
+.github{
+    color:mediumaquamarine;
+    font-size: 20px;
+}
+p a{
+    color:mediumaquamarine;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.input{
+margin-top: 50px;
+padding: 9px 30px;
+}
+.max-min{
+position: relative;
+bottom: 20px;
+}
+.maxTemperature{
+    padding-left: 9px;
+}
+
+.submit-button{
+border: 1px solid blanchedalmond;
+padding: 10px 14px;
+transition: all 100ms ease-in-out;
+background-color: grey;
+color: blanchedalmond;
+
+}
+.submit-button:hover{
+background-color: blanchedalmond;
+color: grey;
+
+}
+
+.temp{
+font-family: "Amaranth", sans-serif;
+font-size: 60px;
+}
+
+
+.time{
+margin-top: 20px;
+
+}
+
